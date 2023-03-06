@@ -1,5 +1,6 @@
 flask
 flask-cors
+aws-xray-sdk
 
 opentelemetry-api 
 opentelemetry-sdk 
@@ -7,7 +8,7 @@ opentelemetry-exporter-otlp-proto-http
 opentelemetry-instrumentation-flask 
 opentelemetry-instrumentation-requests
 
-export OTEL_EXPORTER_OTLP_ENDPOINT="https://api.honeycomb.io"
-export OTEL_EXPORTER_OTLP_HEADERS="x-honeycomb-team=2ITuD3UGC0m1oLxfWcl87A"
-export OTEL_SERVICE_NAME="backend-flask"
-python app.py
+blinker
+rollbar
+
+watchtower
